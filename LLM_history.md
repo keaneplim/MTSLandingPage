@@ -20,6 +20,7 @@
 - **Breakpoint Adjustment:** Moved mobile menu switch to `lg` (1024px) to accommodate the long brand name on medium screens.
 - **Fluid Typography:** Implemented scaling font sizes across all sections to ensure readability on all devices.
 
-### 5. Technical Advisory
-- **SSL/HTTPS:** Provided guidance on obtaining SSL certificates via Vercel, Cloudflare, and Certbot.
-- **Future Planning:** Recommended a "Technical Specs" modal for fleet data.
+### 6. Final Polish & Simplification
+- **Section Removal:** Removed the redundant "Get in Touch" form section to streamline the user journey.
+- **Navigation Update:** Redirected the "Contact" navbar link to the footer anchor (`#footer`).
+- **Imagery:** Replaced the "Sustainability" section's mountain placeholder with a highway road image to better represent the trucking industry.

@@ -73,8 +73,8 @@ export default function Sustainability() {
           >
             <div className="aspect-square rounded-2xl overflow-hidden border-8 border-white/5">
               <img 
-                src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2070&auto=format&fit=crop" 
-                alt="Sustainability and Nature"
+                src="/road.jpg" 
+                alt="Aerial Highway Road"
                 className="w-full h-full object-cover"
               />
             </div>

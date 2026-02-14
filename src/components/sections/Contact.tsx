@@ -67,7 +67,7 @@ export default function Contact() {
                     <Phone className="text-brand-blue-action shrink-0" />
                     <div>
                       <p className="text-brand-blue-light text-sm">+6261-88811858</p>
-                      <p className="text-brand-blue-light text-sm">+6261-6871693</p>
+                      <p className="text-brand-blue-light text-sm">mittransperkasa@gmail.com</p>
                     </div>
                   </div>
                 </div>

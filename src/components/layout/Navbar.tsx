@@ -21,7 +21,7 @@ export default function Navbar() {
     { name: "Services", href: "#services" },
     { name: "Vision & Mission", href: "#philosophy" },
     { name: "Environment", href: "#sustainability" },
-    { name: "Contact", href: "#contact" },
+    { name: "Contact", href: "#footer" },
   ];
 
   return (
