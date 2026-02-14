@@ -36,8 +36,8 @@ export default function Navbar() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative w-12 h-12 flex items-center justify-center transition-transform group-hover:scale-105">
+          <Link href="/" className="flex items-center gap-3 group shrink-0">
+            <div className="relative w-10 h-10 md:w-12 md:h-12 flex items-center justify-center transition-transform group-hover:scale-105">
               <svg viewBox="0 0 100 100" className="w-full h-full drop-shadow-sm">
                 {/* Shield/Hexagon Background */}
                 <path 
@@ -63,23 +63,23 @@ export default function Navbar() {
                 />
               </svg>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 overflow-hidden">
               <span className={cn(
-                "font-bold text-xl tracking-tight transition-colors whitespace-nowrap",
-                isScrolled ? "text-brand-blue-deep" : "text-white md:text-brand-blue-deep lg:text-white"
+                "font-bold text-base sm:text-lg lg:text-xl tracking-tight transition-colors whitespace-nowrap",
+                isScrolled ? "text-brand-blue-deep" : "text-white"
               )}>MITRA TRANS PERKASA</span>
             </div>
           </Link>
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-8">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
                 href={link.href}
                 className={cn(
                   "text-sm font-semibold hover:text-brand-blue-action transition-colors",
-                  isScrolled ? "text-gray-700" : "text-white md:text-gray-700 lg:text-white"
+                  isScrolled ? "text-gray-700" : "text-white"
                 )}
               >
                 {link.name}
@@ -88,7 +88,7 @@ export default function Navbar() {
           </div>
 
           {/* Contact Info (Desktop) */}
-          <div className="hidden lg:flex items-center gap-4 border-l border-gray-300 pl-6 ml-4">
+          <div className="hidden xl:flex items-center gap-4 border-l border-gray-300 pl-6 ml-4 text-white">
             <div className="flex flex-col items-end">
               <div className="flex items-center gap-2 text-xs font-bold text-brand-blue-action">
                 <Phone size={14} />
@@ -103,17 +103,21 @@ export default function Navbar() {
 
           {/* Mobile Menu Toggle */}
           <button
-            className="md:hidden p-2 text-brand-blue-deep"
+            className="lg:hidden p-2"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
-            {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} className={isScrolled ? "text-brand-blue-deep" : "text-white"} />}
+            {isMobileMenuOpen ? (
+              <X size={28} className="text-brand-blue-deep" />
+            ) : (
+              <Menu size={28} className={isScrolled ? "text-brand-blue-deep" : "text-white"} />
+            )}
           </button>
         </div>
       </div>
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="absolute top-full left-0 w-full bg-white shadow-xl border-t border-gray-100 p-4 flex flex-col gap-4 md:hidden animate-in fade-in slide-in-from-top-2">
+        <div className="absolute top-full left-0 w-full bg-white shadow-xl border-t border-gray-100 p-4 flex flex-col gap-4 lg:hidden animate-in fade-in slide-in-from-top-2">
           {navLinks.map((link) => (
             <Link
               key={link.name}

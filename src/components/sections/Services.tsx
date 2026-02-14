@@ -27,17 +27,17 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-24 bg-brand-blue-light/30">
+    <section id="services" className="py-16 md:py-24 bg-brand-blue-light/30">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 md:mb-16 gap-6">
           <div className="max-w-2xl">
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-blue-deep mb-4">Our Core Capabilities</h2>
-            <div className="w-24 h-1 bg-brand-blue-action mb-6" />
-            <p className="text-gray-600 text-lg">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-brand-blue-deep mb-4">Our Core Capabilities</h2>
+            <div className="w-16 md:w-24 h-1 bg-brand-blue-action mb-6" />
+            <p className="text-gray-600 text-base md:text-lg">
               We provide integrated logistics solutions designed to drive efficiency and build confidence in your supply chain.
             </p>
           </div>
-          <button className="px-6 py-3 bg-brand-blue-deep text-white font-bold rounded-sm hover:bg-brand-blue-action transition-colors shrink-0">
+          <button className="w-full md:w-auto px-6 py-3 bg-brand-blue-deep text-white font-bold rounded-sm hover:bg-brand-blue-action transition-colors shrink-0 text-sm md:text-base">
             View Technical Specs
           </button>
         </div>

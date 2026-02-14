@@ -27,14 +27,14 @@ const cards = [
 
 export default function Philosophy() {
   return (
-    <section id="philosophy" className="py-24 bg-white">
+    <section id="philosophy" className="py-16 md:py-24 bg-white">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-12 md:min-h-[200px]">
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-3xl md:text-4xl font-bold text-brand-blue-deep mb-4"
+            className="text-2xl sm:text-3xl md:text-4xl font-bold text-brand-blue-deep mb-4"
           >
             The MTS Philosophy
           </motion.h2>
@@ -42,14 +42,14 @@ export default function Philosophy() {
             initial={{ scaleX: 0 }}
             whileInView={{ scaleX: 1 }}
             viewport={{ once: true }}
-            className="w-24 h-1 bg-brand-blue-action mx-auto mb-6"
+            className="w-16 md:w-24 h-1 bg-brand-blue-action mx-auto mb-6"
           />
           <motion.p 
              initial={{ opacity: 0 }}
              whileInView={{ opacity: 1 }}
              viewport={{ once: true }}
              transition={{ delay: 0.2 }}
-             className="text-gray-600 text-lg"
+             className="text-gray-600 text-base md:text-lg px-4"
           >
             As we grow, we maintain a high level of commitment to protecting the environment 
             for the benefit of both nature and humans.
