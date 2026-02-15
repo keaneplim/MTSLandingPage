@@ -28,7 +28,7 @@ export default function Hero() {
               Your Strategic Logistics Partner
             </span>
             <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.1] mb-4 md:mb-6">
-              PRECISION &<br className="hidden sm:block" />
+              PRECISION & <br className="hidden sm:block" />
               <span className="text-brand-blue-action">CONFIDENCE</span>
             </h1>
             <div className="text-base md:text-xl text-brand-blue-light mb-8 md:mb-10 leading-relaxed max-w-2xl space-y-4">
