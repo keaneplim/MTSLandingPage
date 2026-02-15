@@ -25,24 +25,26 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
           >
             <span className="inline-block px-3 py-1 md:px-4 md:py-1.5 rounded-full bg-brand-blue-action text-white text-[10px] md:text-xs font-bold tracking-widest mb-4 md:mb-6 uppercase">
-              Leader in Logistics & Warehousing
+              Your Strategic Logistics Partner
             </span>
             <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.1] mb-4 md:mb-6">
-              WE EXIST BECAUSE OF <br className="hidden sm:block" />
-              <span className="text-brand-blue-action">CUSTOMER CONFIDENCE</span>
+              PRECISION &<br className="hidden sm:block" />
+              <span className="text-brand-blue-action">CONFIDENCE</span>
             </h1>
-            <p className="text-base md:text-xl text-brand-blue-light mb-8 md:mb-10 leading-relaxed max-w-2xl">
-              Mitra Trans Perkasa (MTS) provides world-class logistics and industrial warehousing 
-              solutions from the heart of Kawasan Industri Medan. Built on trust, driven by precision.
-            </p>
+            <div className="text-base md:text-xl text-brand-blue-light mb-8 md:mb-10 leading-relaxed max-w-2xl space-y-4">
+              <p>
+                Mitra Trans Perkasa (MTP) provides reliable logistics and industrial transportation from the heart of Kawasan Industri Medan (KIM), Medan, North Sumatra, Indonesia.
+              </p>
+              <p className="font-semibold text-white">
+                Built on trust, driven by precision.
+              </p>
+            </div>
             
             <div className="flex flex-col sm:flex-row gap-3 md:gap-4">
               <button className="px-6 py-3 md:px-8 md:py-4 bg-white text-brand-blue-deep font-bold rounded-sm flex items-center justify-center gap-2 hover:bg-brand-blue-light transition-all transform hover:scale-105 text-sm md:text-base">
                 Explore Our Services <ArrowRight size={18} />
               </button>
-              <button className="px-6 py-3 md:px-8 md:py-4 border-2 border-white/30 text-white font-bold rounded-sm hover:bg-white/10 transition-all text-sm md:text-base">
-                Get a Quotation
-              </button>
+        
             </div>
           </motion.div>
         </div>

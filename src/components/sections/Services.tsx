@@ -8,13 +8,13 @@ const services = [
   {
     icon: <Truck className="w-10 h-10" />,
     title: "Inland Transportation",
-    description: "Reliable fleet management across Sumatra and Java, optimized for safety and on-time delivery.",
+    description: "Rooted in Sumatra, Driven Nationwide: Reliable industrial transport across Indonesia’s most vital corridors.",
     image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=2070&auto=format&fit=crop"
   },
   {
     icon: <Box className="w-10 h-10" />,
     title: "Distribution & Fulfillment",
-    description: "End-to-end supply chain solutions tailored to meet the specific demands of your business partners.",
+    description: "Optimizing end-to-end logistics with bespoke fulfillment strategies tailored to the unique pace of your business.",
     image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2070&auto=format&fit=crop"
   },
   {
@@ -37,9 +37,6 @@ export default function Services() {
               We provide integrated logistics solutions designed to drive efficiency and build confidence in your supply chain.
             </p>
           </div>
-          <button className="w-full md:w-auto px-6 py-3 bg-brand-blue-deep text-white font-bold rounded-sm hover:bg-brand-blue-action transition-colors shrink-0 text-sm md:text-base">
-            View Technical Specs
-          </button>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

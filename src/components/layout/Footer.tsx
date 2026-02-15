@@ -38,7 +38,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-brand-blue-light text-sm leading-relaxed">
-              Providing premium logistics and warehousing services to meet our customer's satisfaction as our top priority.
+              Delivering premium transportation and logistic
             </p>
             <div className="flex gap-4">
               <Link href="#" className="hover:text-brand-blue-action transition-colors"><Linkedin size={20} /></Link>
@@ -68,8 +68,8 @@ export default function Footer() {
                   <p className="text-brand-blue-light text-sm leading-relaxed">
                     Jl. Pulau Natuna-1<br />
                     Komp. KIM-2 Warehouse No. C-3<br />
-                    Kawasan Industri Medan (KIM) II<br />
-                    Deli Serdang, Sumut - Indonesia
+                    Kawasan Industri Medan (KIM)-II<br />
+                    Deli Serdang, North Sumatra, Indonesia
                   </p>
                 </div>
               </div>
@@ -79,14 +79,14 @@ export default function Footer() {
                   <div>
                     <p className="text-sm font-bold mb-1">Phone</p>
                     <p className="text-brand-blue-light text-sm">+6261-88811858</p>
-                    <p className="text-brand-blue-light text-sm">6871693</p>
+                    
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="mt-1 text-brand-blue-action"><Mail size={20} /></div>
                   <div>
                     <p className="text-sm font-bold mb-1">Email</p>
-                    <p className="text-brand-blue-light text-sm">info@mitratransperkasa.co.id</p>
+                    <p className="text-brand-blue-light text-sm">mittransperkasa@gmail.com</p>
                   </div>
                 </div>
               </div>

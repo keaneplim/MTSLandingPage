@@ -8,13 +8,13 @@ const cards = [
   {
     icon: <Target className="w-8 h-8" />,
     title: "Our Vision",
-    text: "Providing logistics service to meet our customer's satisfaction as our top priority.",
+    text: "To be the premier logistics backbone of Indonesia, recognized for setting the industry standard in safety, precision, and customer trust.",
     delay: 0.1,
   },
   {
     icon: <Compass className="w-8 h-8" />,
     title: "Our Mission",
-    text: "To increase our service quality and personal professionalism while maintaining good relationship with our customer and business partner.",
+    text: "To empower our partners' growth through relentless innovation in logistics, a culture of absolute professionalism, and a commitment to delivering excellence in every mile.",
     delay: 0.2,
   },
   {
@@ -36,7 +36,7 @@ export default function Philosophy() {
             viewport={{ once: true }}
             className="text-2xl sm:text-3xl md:text-4xl font-bold text-brand-blue-deep mb-4"
           >
-            The MTS Philosophy
+            The MTP Philosophy
           </motion.h2>
           <motion.div 
             initial={{ scaleX: 0 }}
@@ -51,8 +51,7 @@ export default function Philosophy() {
              transition={{ delay: 0.2 }}
              className="text-gray-600 text-base md:text-lg px-4"
           >
-            As we grow, we maintain a high level of commitment to protecting the environment 
-            for the benefit of both nature and humans.
+            As we grow, we maintain a high level of commitment to enhance customer satisfaction.
           </motion.p>
         </div>
 
